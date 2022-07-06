@@ -1,0 +1,31 @@
+h1{    color: chartreuse;background: antiquewhite;
+    text-align: center;
+}
+
+h2{
+    color: chocolate;background: beige;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+ul
+{
+    color: dodgerblue;background:beige;
+}
+
+p
+{
+    color: aquamarine;background: cadetblue;
+}
+
+img
+{
+    width: 300px;
+}
+
+.family{
+    color: darkgreen;
+    background: lavender;
+}
