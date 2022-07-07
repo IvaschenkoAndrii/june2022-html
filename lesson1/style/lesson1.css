@@ -10,18 +10,15 @@ a{
     text-decoration: none;
     color: black;
 }
-ul
-{
+ul{
     color: dodgerblue;background:beige;
 }
 
-p
-{
+p{
     color: aquamarine;background: cadetblue;
 }
 
-img
-{
+img{
     width: 300px;
 }
 
