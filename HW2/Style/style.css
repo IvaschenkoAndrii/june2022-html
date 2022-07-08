@@ -1,64 +1,59 @@
-.container{
+.common{
     background: lightgreen;
     height: auto;
-    width: auto;
-    margin-left: 100px;
-    margin-right: 100px;
+    width: 750px;
+    margin-left: 101px;
+    box-sizing: border-box;
+    padding-bottom: 20px;
 }
 
-.container2{
+.container1{
     display: flex;
-    justify-content: flex-start;
-    background: red;
-    margin-left: 20px;
-    margin-top: 10px;
-    width: 500px;
-}
-.box1{
-    display: flex;
-    width: 250px;
-    justify-content: space-between;
+    justify-content: space-around;
+    box-sizing: border-box;
+    padding-top: 20px;
+    margin-top: 30px;
+    width: 750px;
 }
 
-.CR{
-    display: flex;
-    width: 70px;
-    height: 100px;
-    justify-content: center;
-}
-
-.between{
+.box{
     background: black;
     width: 150px;
-    height: 220px;
-    justify-content: space-between;
-    margin-right: 100px;
-    margin-left: 100px;
-    margin-top: 50px;
-    margin-bottom: 50px;
 }
 
-.par{
-   color: white;
-}
-
-.foto{
-  border-radius: 70px;
-}
-
-.comma{
+.ball{
     display: flex;
     color: white;
     justify-content: center;
     margin: 10px;
 }
 
-.box2>p{
-    text-align: center;
-
+.Foto{
+    display: flex;
+    justify-content: center;
 }
 
-.font{
+.par{
+   color: white;
+    text-align: center;
+}
+
+.img{
+    width: 100px;
+    height: 100px;
+    border-radius: 70px;
+}
+
+.header{
+    color: white;
+    text-align: center;
+}
+
+.container2{
+    text-align: center;
+}
+
+.font1{
     font-size: 30px;
 }
 
