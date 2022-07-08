@@ -1,0 +1,50 @@
+.container {
+    background: white;
+    height: auto;
+    width: 500px;
+    margin: auto;
+}
+
+.first  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: cornflowerblue;
+    height: 150px;
+    width: 500px;
+}
+
+.second  {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 150px;
+    width: 500px;
+    margin-top: 15px;
+}
+
+.inside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: dodgerblue;
+    width: 160px;
+    }
+
+h3{
+    color: lavender;
+   }
+
+h1{
+    color: lavender;
+}
+
+.third  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: cornflowerblue;
+    height: 300px;
+    width: 500px;
+    margin-top: 15px;
+}
