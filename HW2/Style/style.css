@@ -11,10 +11,17 @@
     justify-content: space-between;
 }
 
+.CR{
+    display: flex;
+    width: 70px;
+    height: 100px;
+    justify-content: center;
+}
 
 .between{
-    width: 595px;
-    display: flex;
+    background: black;
+    width: 150px;
+    height: 220px;
     justify-content: space-between;
     margin-right: 100px;
     margin-left: 100px;
@@ -22,8 +29,19 @@
     margin-bottom: 50px;
 }
 
-.box1>.inside1{
+.par{
+   color: white;
+}
+
+.foto{
+  border-radius: 70px;
+}
+
+.comma{
     display: flex;
+    color: white;
+    justify-content: center;
+    margin: 10px;
 }
 
 .box2>p{
