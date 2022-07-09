@@ -6,8 +6,17 @@
     margin-right: 100px;
 }
 
+.container2{
+    display: flex;
+    justify-content: flex-start;
+    background: red;
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 500px;
+}
 .box1{
     display: flex;
+    width: 250px;
     justify-content: space-between;
 }
 
