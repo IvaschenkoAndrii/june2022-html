@@ -1,0 +1,112 @@
+div{
+    border-radius: 20px;
+}
+
+.container_main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 640px;
+}
+
+.container{
+    width: 800px;
+    height: 100%;
+    border: solid silver 2px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.A{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: silver;
+    margin: 10px;
+}
+
+.BCDE{
+    width: 75%;
+}
+
+.BCDEF{
+    display: flex;
+    height: 400px;
+    }
+
+.B{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    background: silver;
+    height: 200px;
+}
+
+.F{
+    width: 25%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: silver;
+    margin: 10px;
+}
+
+.CDE{
+    display: flex;
+    justify-content: space-evenly;
+    height: 200px;
+}
+
+.let{
+    background: silver;
+    height: 180px;
+    width: 33%;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@media screen and (max-width: 600px) {
+
+
+    .container{
+        height: 550px;
+        overflow: hidden;
+    }
+    .BCDEF{
+        flex-direction: column;
+        height: 75%;
+        width: 100%;
+    }
+
+    .BCDE{
+        width: 100%;
+    }
+
+    .CDE{
+        height: 100px;
+        margin-bottom: 10px;
+    }
+
+    .A{
+        height: 100px;
+    }
+
+    .F{
+        height: 100px;
+        width: 95%;
+    }
+
+    .B{
+        height: 200px;
+    }
+
+    .let{
+        height: 100px;
+    }
+}
